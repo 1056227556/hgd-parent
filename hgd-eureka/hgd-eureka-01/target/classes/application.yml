@@ -1,0 +1,10 @@
+server:
+  port: 90001
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:http://${eureka.instance.hostname}:${service.port}/eureka/
+  instance:
+    hostname: 127.0.0.1
+
