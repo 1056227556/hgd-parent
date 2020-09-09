@@ -9,6 +9,7 @@
         <module>hgd-common</module>
         <module>hgd-common-db</module>
         <module>hgd-eureka</module>
+        <module>hgd-services</module>
     </modules>
     <groupId>org.club.lxjn</groupId>
     <artifactId>hgd-parent</artifactId>
