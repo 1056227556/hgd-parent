@@ -1,10 +1,11 @@
 server:
-  port: 90001
+  port: 9011
+spring:
+  application:
+    name: 注册中心-01
 eureka:
   client:
-    register-with-eureka: false
-    fetch-registry: false
-    service-url:http://${eureka.instance.hostname}:${service.port}/eureka/
+    service-url:
+      defaultZone: http://127.0.0.1:9012/eureka/ #与 Eureka Server 交互的地址
   instance:
     hostname: 127.0.0.1
-

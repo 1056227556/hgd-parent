@@ -1,0 +1,17 @@
+server:
+  port: 9020
+spring:
+  application:
+    name: 用户模块
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://122.51.200.216:3306/lxjn_club?useUnicode=true&characterEncoding=utf8
+    username: lxjn_club
+    password: 123456
+  redis:
+    host: 122.51.200.216
+    password: test123
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:9011/eureka/,http://127.0.0.1:9012/eureka/ #与 Eureka Server 交互的地址

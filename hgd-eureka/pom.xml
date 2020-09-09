@@ -8,7 +8,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
   <packaging>pom</packaging>
-  <description>注册中心 端口控制在9000 ~ 9010之间</description>
+  <description>注册中心 端口控制在9010 ~ 9020之间</description>
   <modules>
     <module>hgd-eureka-01</module>
     <module>hgd-eureka-02</module>
